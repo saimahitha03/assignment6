@@ -1,0 +1,112 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+body{
+    background-color:rgb(32, 30, 30);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.container{
+    width: 300px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px;
+    margin:0 auto;
+    align-items: center;
+}
+.img{
+    width: 98%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 2%;
+}
+.text{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+   
+}
+.large{
+display: flex;
+justify-content: space-between;
+margin: 10px;
+text-align: center;
+align-items: center;
+}
+.burger{
+    color: blue;
+
+
+}
+.id{
+   display: flex;
+   justify-content: space-between;
+  padding: 10px 10px 10px 10px; 
+}
+.star{
+     color: yellow;
+   
+}
+#hollow{
+    color:gray;
+}
+.review{
+      color: gray;
+}
+.calories{
+    display:flex ;
+    justify-content:space-between ;
+    margin: 20px;
+}
+.cal{
+    font-size:20px;
+    color: black;
+    font-weight: lighter;
+}
+.food{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: green;
+    border-radius:5px;
+}
+.blank{
+    width: 90%;
+    padding: 2px;
+    background-color: gray;
+    margin-left: 10px;
+}
+.doller{
+     display: flex;
+     justify-content: space-between;
+     padding: 20px 20px 20px 20px;
+}
+.dol{
+    font-size: 30px;
+    color:orangered;
+}
+.count{
+     font-size: 20px;
+     color: black;
+     display: flex;
+}
+.minus{
+    border: 1px solid gray;
+    padding: 5px 5px 5px 5px;
+    font-weight: bold;
+    border-right: none;
+    border-radius: 5px;
+}
+.zero{
+    border: 1px solid gray;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+}
+.plus{
+    border: 1px solid gray;
+    padding: 5px 5px 5px 5px;
+    font-weight: bold;
+    border-left: none;
+    border-radius: 5px;
+}
